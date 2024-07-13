@@ -8,7 +8,7 @@ const data = await getProduct();
 const products = data.products
 const result = data.products.map(function(p){
     return `
-    <a href="./details.html?id=${p.id}">
+    <a href="./details.html?id=${p.id}" target="_blank">
     <div class="product">
     <h2>${p.title}</h2>
     <img src="${p.thumbnail}" />
