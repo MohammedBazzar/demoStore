@@ -5,6 +5,7 @@
 }
 body{
     background-color:rgb(166, 165, 163);
+    cursor: help;
 }
 .products{
     display: flex;
